@@ -342,4 +342,24 @@
     .hero-img:after {
         top: 35px;
     }
+
+    #about {
+        padding-top: 80px;
+    }
+
+    .about-main:before,
+    .brand-bg:before {
+        top: -80px;
+        left: -80px;
+        transform: rotate(73deg);
+    }
+
+    .brand-bg {
+        padding-top: 80px;
+    }
+
+    .brand-bg:before {
+        top: -30px;
+        left: -60px;
+    }
 }
