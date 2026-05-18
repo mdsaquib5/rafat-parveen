@@ -70,7 +70,7 @@ const Media = () => {
                             </motion.div>
                         ))}
                     </div>
-                    <div className='signature'>Stories that we cover from ground !</div>
+                    <div className='signature'>Bringing Brand Stories to Life !</div>
                 </div>
                 <div className='gallery-2'>
                     {images.slice(6, 10).map((img, idx) => (

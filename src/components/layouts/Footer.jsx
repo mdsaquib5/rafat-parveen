@@ -21,17 +21,18 @@ const Footer = () => {
                     <span>'</span>
                     <span>s</span>
                     <span>&nbsp;</span>
-                    <span>C</span>
-                    <span>o</span>
+                    <span>F</span>
                     <span>l</span>
-                    <span>l</span>
-                    <span>a</span>
-                    <span>b</span>
+                    <span>y</span>
+                    <span>&nbsp;</span>
+                    <span>T</span>
                     <span>o</span>
-                    <span>r</span>
-                    <span>a</span>
-                    <span>t</span>
+                    <span>g</span>
                     <span>e</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>e</span>
+                    <span>r</span>
                 </div>
                 <div className="footer-bottom">
                     <p>Copyright © 2026 Rafat Parveen. All rights reserved.</p>

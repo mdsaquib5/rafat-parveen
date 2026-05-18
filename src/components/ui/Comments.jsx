@@ -1,14 +1,14 @@
 const comments = [
-    "Honestly, your voice and screen presence are next level 🔥📺 Keep shining with such impactful journalism ✨👏",
-    "The way you covered the story was so engaging 📰💫 Truly felt like watching a professional news channel 🎙️🔥",
-    "Loved your storytelling and live coverage 🔥🖤 You bring real energy and authenticity to journalism 🎙️💯",
-    "Your communication style is so clear and professional 📺✨ Really impressed with your reporting confidence 👏🔥",
-    "Outstanding work on the latest coverage 📰❤️ Your media presence and delivery are truly inspiring 💫🎤",
-    "Every report you present feels meaningful and impactful 💯🖤 Keep growing and shining in journalism 🚀✨",
-    "Such a confident and elegant news presentation 🎙️🔥 Your reporting style keeps the audience connected 📺❤️",
-    "Your journalism content always feels professional and authentic 📰✨ Truly one of the best reporting styles 💫👏",
-    "Brilliant coverage and amazing camera confidence 📸🔥 You were looking like a prime-time news anchor 🎤🖤",
-    "Loved the way you explained everything so smoothly 💯✨ Your reporting skills are improving beautifully 🎙️❤️"
+    "Honestly, your flight vlogs and cabin crew aesthetic are next level! ✈️✨ Keep shining with such gorgeous content 🌸👏",
+    "The way you capture the life of a cabin crew member is so engaging 🛫💫 Truly love seeing your travel diaries! 🌍💖",
+    "Loved your beauty hacks and aviation styling tips! 💄✨ You bring real elegance and authenticity 🌟💯",
+    "Your styling advice and cabin crew grace are so professional! ✈️✨ Really impressed with your aesthetic 👏💖",
+    "Outstanding work on the latest travel collaborations! 👜❤️ Your media presence and style are truly inspiring 💫🛫",
+    "Every vlog you share feels so calm, fresh, and aesthetic 🌴✈️ Keep growing and sharing your journey! 🚀✨",
+    "Such a confident and elegant showcase of the skies! ✈️💖 Your reels keep the audience fully connected 📺✨",
+    "Your travel content always feels so premium and authentic 🌸✨ Truly one of the best lifestyle creators! 💫👏",
+    "Brilliant product collaborations and amazing camera confidence! 📸🔥 You bring such elegant charm to everything 💖✨",
+    "Loved the way you showed the cabin crew beauty routine! 💯✨ Your presentation and tips are amazing ✈️💄"
 ]
 
 const Comments = () => {

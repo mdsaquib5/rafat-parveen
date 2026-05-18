@@ -43,8 +43,8 @@ const Brands = () => {
         <section className="brand-bg">
             <div className="container">
                 <div className="section-title">
-                    <div className="title-icon">Brands Collaboration</div>
-                    <div className="about-heading">Brands I've Worked With</div>
+                    <div className="title-icon">Brand Collaborations & Stories</div>
+                    <div className="about-heading">Brands I've Collaborated With</div>
                 </div>
                 <div className="slider-brands">
                     <Swiper
