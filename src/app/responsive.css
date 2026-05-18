@@ -122,7 +122,11 @@
 
     .followers {
         top: 0;
-        right: -50px;
+        right: -120px;
+    }
+
+    .reach {
+        left: -120px;
     }
 
     .hero-img img {
@@ -333,5 +337,9 @@
     .thumb-img,
     .reel-video {
         border-radius: 60px;
+    }
+
+    .hero-img:after {
+        top: 35px;
     }
 }
