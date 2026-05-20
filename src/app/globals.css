@@ -163,7 +163,7 @@ header {
 
 /* Header ends */
 .hero-bg {
-    background: linear-gradient(#000000b3, #000000c4), url(/hero-bg.jpeg) center fixed no-repeat;
+    background: linear-gradient(#000000b3, #000000c4), url(/hero-bg.webp) center fixed no-repeat;
     background-size: cover;
     background-position: center 68%;
     width: 100%;
@@ -492,7 +492,7 @@ header {
 
 /* about me ends */
 .comments-bg {
-    background: url('/comment-bg.jpg') no-repeat center / cover fixed;
+    background: url('/comment-bg.webp') no-repeat center / cover fixed;
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -818,6 +818,7 @@ header {
 .lightbox-nav {
     position: absolute;
     top: 50%;
+    z-index: 2;
     transform: translateY(-50%);
     background: #ffffff1a;
     border: none;
@@ -898,7 +899,7 @@ header {
 
 /* media ends */
 .brand-bg {
-    background: url('/brand-bg.jpg') no-repeat center / cover;
+    background: url('/brand-bg.webp') no-repeat center / cover;
     padding-bottom: 120px;
     position: relative;
 }
