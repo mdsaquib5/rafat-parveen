@@ -12,7 +12,7 @@ const ReelCard = ({ reel }) => {
     const [isPlaying, setIsPlaying] = useState(false);
 
     return (
-        <div className="reel-card">
+        <div className="reel-card" id="instagram">
             <div className="reel-img">
                 <Image
                     src="/frame.webp"

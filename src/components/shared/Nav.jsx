@@ -30,9 +30,10 @@ const Nav = ({ isOpen, onClose }) => {
 
     const links = [
         { name: "Home", href: "/" },
-        { name: "About", href: "/" },
-        { name: "Trending", href: "/" },
-        { name: "News", href: "/" }
+        { name: "About", href: "#about" },
+        { name: "Trending", href: "#trending" },
+        { name: "Instagram", href: "#instagram" },
+        { name: "Brand Collaborations", href: "#brand-collaborations" }
     ];
 
     return (

@@ -40,7 +40,7 @@ const Brands = () => {
     };
 
     return (
-        <section className="brand-bg">
+        <section id="brand-collaborations" className="brand-bg">
             <div className="container">
                 <div className="section-title">
                     <div className="title-icon">Brand Collaborations & Stories</div>
