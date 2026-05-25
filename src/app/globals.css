@@ -909,8 +909,14 @@ header {
     top: -20px;
 }
 
+.brand-bg .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .brand-swiper:first-child {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     margin-top: 60px;
 }
 

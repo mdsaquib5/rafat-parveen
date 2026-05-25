@@ -1,6 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, FreeMode } from 'swiper/modules';
+import { FreeMode } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -8,29 +8,22 @@ import 'swiper/css/free-mode';
 import Image from 'next/image';
 
 const brandsData = [
-    { alt: "Brand-1", img: "/brand-1.webp" },
-    { alt: "Brand-2", img: "/brand-2.webp" },
-    { alt: "Brand-1", img: "/brand-1.webp" },
-    { alt: "Brand-2", img: "/brand-2.webp" },
-    { alt: "Brand-1", img: "/brand-1.webp" },
-    { alt: "Brand-2", img: "/brand-2.webp" },
-    { alt: "Brand-1", img: "/brand-1.webp" },
-    { alt: "Brand-2", img: "/brand-2.webp" },
-    { alt: "Brand-1", img: "/brand-1.webp" },
-    { alt: "Brand-2", img: "/brand-2.webp" },
+    { alt: "Brand-1", img: "/brands/brand-1.webp" },
+    { alt: "Brand-2", img: "/brands/brand-2.webp" },
+    { alt: "Brand-3", img: "/brands/brand-3.webp" },
 ];
 
 const Brands = () => {
     // Common Configuration
     const commonConfig = {
-        allowTouchMove: false,
-        simulateTouch: false,
+        allowTouchMove: true,
+        simulateTouch: true,
         slidesPerView: 1.5,
         spaceBetween: 20,
         loop: true,
         freeMode: true,
         speed: 8000, // Adjusted speed for better brand visibility
-        modules: [Autoplay, FreeMode],
+        modules: [FreeMode],
         breakpoints: {
             1200: { slidesPerView: 6 },
             1024: { slidesPerView: 4 },
@@ -49,26 +42,12 @@ const Brands = () => {
                 <div className="slider-brands">
                     <Swiper
                         {...commonConfig}
-                        autoplay={{ delay: 0, disableOnInteraction: false }}
-                        className="brand-swiper"
+                        className="brand-swiper smooth-swiper"
                     >
-                        {[...brandsData, ...brandsData].map((item, index) => (
+                        {[...brandsData, ...brandsData, ...brandsData].map((item, index) => (
                             <SwiperSlide key={`row1-${index}`}>
                                 <div className="brand-card">
-                                    <Image src={item.img} alt={item.alt} width={127} height={140} />
-                                </div>
-                            </SwiperSlide>
-                        ))}
-                    </Swiper>
-                    <Swiper
-                        {...commonConfig}
-                        autoplay={{ delay: 0, disableOnInteraction: false, reverseDirection: true }}
-                        className="brand-swiper"
-                    >
-                        {[...brandsData, ...brandsData].map((item, index) => (
-                            <SwiperSlide key={`row2-${index}`}>
-                                <div className="brand-card">
-                                    <Image src={item.img} alt={item.alt} width={127} height={140} />
+                                    <Image src={item.img} alt={item.alt} width={500} height={500} />
                                 </div>
                             </SwiperSlide>
                         ))}
