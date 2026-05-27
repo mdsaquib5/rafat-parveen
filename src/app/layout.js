@@ -7,8 +7,8 @@ import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
 
 export const metadata = {
-  title: "Influencer Porfolio",
-  description: "Influencer Porfolio",
+  title: "Rafat Parveen | Cabin Crew",
+  description: "Rafat Parveen | Cabin Crew",
 };
 
 export default function RootLayout({ children }) {
