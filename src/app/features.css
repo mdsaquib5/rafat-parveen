@@ -249,6 +249,9 @@
 
 .empty-state p {
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 /* ---- Loading Spinner ---- */
