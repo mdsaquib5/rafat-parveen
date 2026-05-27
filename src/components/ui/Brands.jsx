@@ -33,7 +33,7 @@ const Brands = () => {
     };
 
     return (
-        <section id="brand-collaborations" className="brand-bg">
+        <section id="brands" className="brand-bg">
             <div className="container">
                 <div className="section-title">
                     <div className="title-icon">Brand Collaborations & Stories</div>

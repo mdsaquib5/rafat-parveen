@@ -175,9 +175,8 @@
         /* margin-bottom: 60px; */
     }
 
-    .blogs-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
+
 
     .footer-top {
         padding: 30px;
@@ -317,9 +316,8 @@
         font-size: 26px;
     }
 
-    .blogs-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
+
+
 
     .footer-top {
         padding: 10px;

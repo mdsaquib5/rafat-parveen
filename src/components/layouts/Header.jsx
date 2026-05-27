@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Nav from "../shared/Nav";
 import Cta from "../shared/Cta";
@@ -7,7 +8,12 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import Logo from "../shared/Logo";
 
 const Header = () => {
+    const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
+
+    if (pathname && pathname.startsWith('/admin')) {
+        return null;
+    }
 
     return (
         <header>
