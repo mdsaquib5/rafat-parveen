@@ -17,6 +17,9 @@
     font-size: 32px;
     font-weight: 700;
     color: var(--black-dim);
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .admin-title span {
@@ -322,7 +325,6 @@
     justify-content: center;
     font-size: 14px;
     font-weight: 700;
-    border: 2px solid #ddd;
     background: #fff;
     color: #bbb;
     transition: all 0.3s ease;
@@ -387,24 +389,22 @@
 .chip {
     padding: 8px 16px;
     border-radius: 30px;
-    border: 1.5px solid #e0d0d0;
     background: #fff;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: #555;
     cursor: pointer;
     transition: all 0.25s ease;
     user-select: none;
+    background-color: #f5ededf7;
 }
 
 .chip:hover {
-    border-color: var(--primary);
     color: var(--primary);
 }
 
 .chip.selected {
-    background: linear-gradient(135deg, #ffa945, var(--primary));
-    border-color: transparent;
+    background: linear-gradient(135deg, var(--secondary), var(--primary));
     color: #fff;
 }
 

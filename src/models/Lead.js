@@ -63,7 +63,7 @@ const LeadSchema = new mongoose.Schema(
         score: { type: Number, default: 0 },
         status: {
             type: String,
-            enum: ['new', 'approved', 'declined'],
+            enum: ['new', 'approved', 'declined', 'closed'],
             default: 'new',
         },
         adminNote: { type: String },

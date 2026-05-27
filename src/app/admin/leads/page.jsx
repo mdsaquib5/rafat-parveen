@@ -16,6 +16,9 @@ export default function AdminLeadsPage() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
     const [deleting, setDeleting] = useState(null);
+    const [filter, setFilter] = useState('all');
+
+    const filteredLeads = leads.filter(l => filter === 'all' || l.status?.toLowerCase() === filter.toLowerCase());
 
     const fetchLeads = async () => {
         setLoading(true);
@@ -52,7 +55,15 @@ export default function AdminLeadsPage() {
         <div>
             <div className="admin-header">
                 <h1 className="admin-title">Collaboration <span>Leads</span></h1>
-
+                <div>
+                    <select className="form-select" value={filter} onChange={(e) => setFilter(e.target.value)} style={{ minWidth: '150px' }}>
+                        <option value="all">All Leads</option>
+                        <option value="new">New</option>
+                        <option value="approved">Approved</option>
+                        <option value="declined">Declined</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                </div>
             </div>
 
             <div className="admin-card">
@@ -82,7 +93,7 @@ export default function AdminLeadsPage() {
                                 </tr>
                             </thead>
                             <tbody>
-                                {leads.map((lead) => (
+                                {filteredLeads.map((lead) => (
                                     <tr key={lead._id}>
                                         <td><ScoreBadge score={lead.score} /></td>
                                         <td className="brand-text">{lead.brand}</td>

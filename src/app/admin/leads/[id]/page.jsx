@@ -184,6 +184,7 @@ export default function LeadDetailPage() {
                                     <option value="new">New</option>
                                     <option value="approved">Approved</option>
                                     <option value="declined">Declined</option>
+                                    <option value="closed">Closed</option>
                                 </select>
                             </div>
 

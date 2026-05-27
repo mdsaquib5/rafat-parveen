@@ -22,7 +22,7 @@ export async function PUT(request, { params }) {
         const lead = await Lead.findByIdAndUpdate(
             id,
             { status: body.status, adminNote: body.adminNote },
-            { new: true, runValidators: true }
+            { returnDocument: 'after', runValidators: true }
         );
         if (!lead) return NextResponse.json({ success: false, error: 'Lead not found' }, { status: 404 });
         return NextResponse.json({ success: true, data: lead });
